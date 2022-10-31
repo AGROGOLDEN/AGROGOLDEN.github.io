@@ -58,7 +58,27 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
-
+      <script type="text/javascript">
+        now = new Date();
+        if (now.getTimezoneOffset() == 0) (a=now.getTime() + ( 7 *60*60*1000))
+        else (a=now.getTime());
+        now.setTime(a);
+        var tahun= now.getFullYear ()
+        var hari= now.getDay ()
+        var bulan= now.getMonth ()
+        var tanggal= now.getDate ()
+        var hariarray=new Array("Minggu,","Senin,",
+        "Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,")
+        var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","/ 12 /")
+        document.write(hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun)
+        </script>
+        <script type="text/javascript">
+        now = new Date();
+        if (now.getTimezoneOffset() == 0) (a=now.getTime() + ( 7 *60*60*1000))
+        else (a=now.getTime());
+        now.setTime(a);
+        document.write(" Jam " + ((now.getHours() < 10) ? "0" : "") + now.getHours() + ":" + ((now.getMinutes() < 10)? "0" : "") + now.getMinutes() + (" W.I.B "))
+        </script>
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#intro">Home</a></li>
@@ -396,17 +416,17 @@
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-split wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-whole wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
                 <img src="img/portfolio/App1.jpeg" class="img-fluid" alt="">
-                <a href="img/portfolio/App1.jpeg" data-lightbox="portfolio" data-title="Split" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="img/portfolio/App1.jpeg" data-lightbox="portfolio" data-title="Whole" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Split betel nut</a></h4>
-                <p>Split</p>
+                <h4><a href="#">Whole 90-95</a></h4>
+                <p>Whole</p>
               </div>
             </div>
           </div>
@@ -471,17 +491,17 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-split wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-whole wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
                 <img src="img/portfolio/App6.jpeg" class="img-fluid" alt="">
-                <a href="img/portfolio/App6.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Split" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="img/portfolio/App6.jpeg" class="link-preview" data-lightbox="portfolio" data-title="whole" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Split</a></h4>
-                <p>Split</p>
+                <h4><a href="#">Whole 90-95</a></h4>
+                <p>Whole</p>
               </div>
             </div>
           </div>
@@ -492,13 +512,13 @@
             <div class="portfolio-wrap">
               <figure>
                 <img src="img/portfolio/App8.jpeg" class="img-fluid" alt="">
-                <a href="img/portfolio/App8.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="img/portfolio/App8.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Split" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Split betel nut 80-87</a></h4>
-                <p>Split betel nut</p>
+                <h4><a href="#">Split 80-85</a></h4>
+                <p>Split</p>
               </div>
             </div>
           </div>
@@ -818,7 +838,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
         -->
-        Designed by <a href="https://instagram.com/jeky_sung?igshid=YmMyMTA2M2Y=">Jeky Sung</a>
+        Designed by <a href="https://api.whatsapp.com/send?phone=+6282279661594&text=Hallo Admin...">Dandi Apdillah</a>
       </div>
     </div>
   </footer><!-- #footer -->
